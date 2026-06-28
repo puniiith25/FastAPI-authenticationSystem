@@ -11,8 +11,7 @@ def health():
 def saveuser(user):
     with open('user.json','w') as file:
         json.dump(user ,file ,indent=4)
-# data loader
-# data loader# data loader
+
 
 def loaduser():
     if not os.path.exists("user.json"):
